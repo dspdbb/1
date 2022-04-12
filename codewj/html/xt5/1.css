@@ -1,0 +1,88 @@
+#a {
+    width: 1000px;
+    border: 1px;
+    height: auto;
+    /* background-color: aqua; */
+    /* border-color: red; */
+    /* border-style: solid; */
+    position: relative;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.b {
+    height: 120px;
+    border-color: red;
+    /* border-style: solid; */
+    position: relative;
+    background-color: rgb(12, 12, 11);
+    top: 1px;
+    font-size: 15px;
+}
+
+.c {
+    width: 250px;
+    height: 30px;
+    left: 0px;
+    /* border-style: solid; */
+    border-color: red;
+    background-color: bisque;
+    position: relative;
+    top: 0px;
+}
+
+.d {
+    /* border-style: solid; */
+    background-color: blue;
+    top: -30px;
+    left: 250px;
+    width: 250px;
+    height: 30px;
+    position: relative;
+}
+
+.e {
+    /* border-style: solid; */
+    background-color: blueviolet;
+    position: relative;
+    top: -60px;
+    height: 30px;
+    left: 500px;
+    width: 250px;
+}
+
+.f {
+    width: 250px;
+    height: 30px;
+    left: 750px;
+    top: -90px;
+    /* border-style: solid; */
+    position: relative;
+    background-color: cadetblue;
+}
+
+.g {
+    width: auto;
+    height: 650px;
+    position: relative;
+    /* border-style: solid; */
+    top: -71px;
+    background-color: burlywood;
+}
+
+.h {
+    width: auto;
+    height: 20px;
+    top: -741px;
+    position: relative;
+    background-color: rgb(29, 139, 139);
+    /* border-style: solid; */
+}
+
+.i {
+    width: auto;
+    height: 100px;
+    position: relative;
+    top: -95px;
+    background-color: black;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>1122</h1> -->
+    <h1>
+        猜数字游戏
+    </h1>
+    <script>
+        var obj1 = document.getElementsByTagName("h1")
+        alert("猜数字游戏")
+        while (x != 35) {
+            var x = prompt("请输入一个数")
+            if (x < 35)
+                alert("你猜小了")
+
+            else if (x > 35)
+                alert("你猜大了")
+            else {
+
+                alert("猜对了")
+                obj1[0].innerHTML = "<h1>猜对+10</h1><br>"
+
+                break
+            }
+        }
+
+        console.log("这是console输出信息" + x)
+    </script>
+</body>
+
+</html>

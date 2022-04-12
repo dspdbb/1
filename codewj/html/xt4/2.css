@@ -1,0 +1,28 @@
+#a {
+    background-color: #ffc33c;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+}
+
+.b {
+    background-color: #ff33cc;
+    border: 2px solid #333;
+    left: 350px;
+    width: 300px;
+    height: 300px;
+    top: -22px;
+    position: relative;
+}
+
+.c {
+    background-color: #ff33cc;
+    left: 700px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    position: static;
+    margin-left: 700px;
+    margin-top: -326px;
+}
